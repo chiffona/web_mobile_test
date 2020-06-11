@@ -1,11 +1,19 @@
 *{
 	box-sizing: border-box;
+	claer: both;
+}
+
+.menu a{
+	cursor:pointer;
+}
+.menu .hide{
+	display:none;
 }
 
 body{
 	padding: 10px;
 	font-family: Gulim;
-	background: #eee;
+	background: #000000;
 }
 .header{
 	padding: 10px;
@@ -14,6 +22,12 @@ body{
 }
 .header h1{
 	font-size: 40px;
+}
+.header a{
+	color: #000000;
+	text-align: center;
+	padding: 12px 12px;
+	text-decoration: none;
 }
 .nav{
 	overflow: hidden;
@@ -28,16 +42,26 @@ body{
 }
 .left{
 	float: left;
-	width:75%;
+	width:15%;
+}
+.middle{
+	float: left;
+	width:65%;
+	padding-left: 20px;
 }
 .right{
 	float: left;
-	width: 25%;
+	width: 20%;
 	bakcgroun-color: #eee;
 	padding-left: 20px;
 }
 .fakeimg{
 	backgorund-color: #aaa;
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	claer:both;
 	width: 100%;
 	padding: 20px;
 }
@@ -51,9 +75,17 @@ body{
 	display: table;
 	clear: both;
 }
+.copyrightimg{
+	position: absolute;
+	margin-top: 30px;
+}
 .footer{
-	padding: 10px;
-	text-align: center;
-	background: white;
+	width: 100%;
+	border-top: 1px solid;
+}
+.footer p{
+	padding:55px 0  20px 200px;
+	text-align: left;
 	margin-top: 20px;
+	background: white;
 }

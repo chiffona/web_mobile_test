@@ -1,47 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" href="../css/web/web_v_0.0.1.css" />
 	<link rel="stylesheet" media="(max-width: 480px)" href="../css/mobile/mobile_v_0.0.1.css" />
+	<title>web_mobile_test_v001 </title>
+	<style></style>
 </head>
+<!--팝업 페이지 출력-->
+<body onload="window.open('../etc/popup/testpage_popup_1.html','testpage_popup_1')">
 <body>
 	<!--header 영역-->
+	<!--<div class= "top-menu-right">
+			<a href="../mainpages/testpage_1.html" title="Test Page_1">
+				<img src="../../material/images/font_images/testpage_1.png" width= "100px" alt="Testpage_1"></a>
+			<a href="../mainpages/testpage_2.html" title="Test Page_2">
+				<img src="../../material/images/font_images/testpage_2.png" width= "100px" alt="Testpage_2"></a>
+			<a href="../mainpages/testpage_3.html" title="Test Page_3">
+				<img src="../../material/images/font_images/testpage_3.png" width= "100px" alt="Testpage_3"></a>
+			<a href="../mainpages/testpage_4.html" title="Test Page_4">
+				<img src="../../material/images/font_images/testpage_4.png" width= "100px" alt="Testpage_4"></a></div> -->
 	<div class="header">
-		<h1>hi hi</h1>
-		<p>welcome welcome</p>
+		<h1><a href="../mainpages/testpage_1.html">Test_page_0 - Main Page</a>
+		</h1>
+		<p>Heyonhak Choi - test_page_v002</p>
 	</div>
 	<!--navigator-->
 	<div class="nav">
-		<a href="#">alex</a>
-		<a href="#">chris</a>
-		<a href="#">tiffany</a>
+		<a href="../mainpages/testpage_1.html" title="Test Page_1">Test Page_1</a>
+		<a href="../mainpages/testpage_2.html" title="Test Page_2">Test Page_2</a>
+		<a href="../mainpages/testpage_3.html" title="Test Page_3">Test Page_3</a>
+		<a href="../mainpages/testpage_4.html" title="Test Page_4">Test Page_4</a>
 	</div>
 	<!-- main content-->
 	<div class="row">
 		<div class="left">
 			<div class="card">
-				<h2>2020년 4학년 입니다..</h2>
-				<h5>제발 졸업하게 해주세요.</h5>
-				<div class="fakeimg" style="height:200px;">image</div>
-				<h5>1. ry/deno</h5>
-				<p> 이번주에 아무것도 안해서 만드는 페이지 입니다.</p>
+				<h2>Test Page for graduation thesis</h2>
+				<h5>Last check 2020-06-11 21:19</h5>
+				<div class="fakeimg" style="height:200px;"></div>
+				<ul>
+					<li class="menu">
+						<a href src="javascript:doDisplay();">상위메뉴이미지1</a>
+						<div id = "myDIV">
+						<ul class="hide">
+							<li>메뉴1-1</li>
+							<li>메뉴1-2</li>
+							<li>메뉴1-3</li>
+							<li>메뉴1-4</li>
+							<li>메뉴1-5</li>
+							<li>메뉴1-6</li>
+						</ul>
+					</div>
+						</li>
+						<li class="menu">
+						<a href src="javascript:doDisplay();">상위메뉴이미지2</a>
+						<div id = "myDIV">
+							<ul class="hide">
+							<li>메뉴2-1</li>
+							<li>메뉴2-2</li>
+							<li>메뉴2-3</li>
+							<li>메뉴2-4</li>
+							<li>메뉴2-5</li>
+							<li>메뉴2-6</li>
+						</ul>
+					</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="middle">
+			<div class="card">
+				<h2>Test Page for graduation thesis</h2>
+				<h5>Last check 2020-06-10 15:49</h5>
+				<div class="fakeimg" style="height:200px;">
+					<img src="../material/images/grass/main_image.jpg" height="100" alt="main menu picture"></div>
+				<h5>1. 첫번째 소제목</h5>
+				<p> 첫번째 내용 </p>
+				<p> 내용 내용 </p>
+			</div>
+			<div class="card">
+				<h2>Test Page for graduation thesis</h2>
+				<h5>Last check 2020-06-10 15:49</h5>
+				<div class="fakeimg" style="height:200px;">
+					<img src="../material/images/grass/main_image.jpg" height="100" alt="main menu picture"></div>
+				<h5>2. 두번째 소제목</h5>
+				<p> 두번째 내용 </p>
+				<p> 내용 내용 </p>
+			</div>
+			<div class="card">
+				<h2>Test Page for graduation thesis</h2>
+				<h5>Last check 2020-06-10 15:49</h5>
+				<div class="fakeimg" style="height:200px;">
+					<img src="../material/images/grass/main_image.jpg" height="100" alt="main menu picture"></div>
+				<h5>3. 세번째 소제목</h5>
+				<p> 세번째 내용 </p>
 				<p> 내용 내용 </p>
 			</div>
 		</div>
 	<!-- side content-->
 		<div class="right">
 			<div class="card">
-				<h2>졸업 예정자란</h2>
-				<div class="fakeimg" style="height:100px;">image</div>
-				<h2>졸업 예정자란</h2>
+				<h2>About graduation thesis</h2>
 				<div class="fakeimg" style="height:100px;">
-				<p>다음 년도에 백수가 되는 바보들이 모였다.</p>
+					<img src="../material/images/heimdal/heimdal_01.jpg" height="100" alt="main menu picture"></div>
+				<h2>About graduation thesis</h2>
+				<p>졸업을 할 수 있을 것이다.</p>
+				</div>
 			</div>
 		</div>
 	</div>
 	<!-- footer -->
 	<div class="footer">
-		<h3> link: http://naver.com</h3>
+		<span class="copyrightimg" style="height:100px;">
+			<img src="../material/images/etc/shiba_pingtree.jpg" height="100" alt="shiba_pingtree">
+		</span>
+		<p>
+			Made by : Heyonhak Choi
+			<br>&emsp;&emsp;&emsp;&emsp;&ensp; Department of ICT & Automotive Engineering, Hoseo University
+			<br>&emsp;&emsp;&emsp;&emsp;&ensp; It's just testpage.
+		</p>
+		<script type="text/javascript" src="../js/us/dis_hide.js"></script>
 	</div>
 </body>
 </html>
