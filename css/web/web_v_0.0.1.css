@@ -40,6 +40,13 @@ body{
 	padding: 12px 12px;
 	text-decoration: none;
 }
+.nav h5{
+	float: right;
+	color: #ffffff;
+	text-align: center;
+	padding: 12px 12px;
+	text-decoration: none;
+}
 .left{
 	float: left;
 	width:15%;
